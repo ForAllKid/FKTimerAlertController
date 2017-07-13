@@ -13,6 +13,8 @@
 		7119D74A1F17202900321042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7119D7481F17202900321042 /* Main.storyboard */; };
 		7119D74C1F17202900321042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7119D74B1F17202900321042 /* Assets.xcassets */; };
 		7119D74F1F17202900321042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7119D74D1F17202900321042 /* LaunchScreen.storyboard */; };
+		7119D7591F1723AE00321042 /* FKTimerAlertControllerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7119D7581F1723AE00321042 /* FKTimerAlertControllerAnimator.m */; };
+		7119D75C1F1723BF00321042 /* FKTimerAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7119D75B1F1723BF00321042 /* FKTimerAlertController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		7119D74B1F17202900321042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7119D74E1F17202900321042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7119D7501F17202A00321042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7119D7571F1723AE00321042 /* FKTimerAlertControllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKTimerAlertControllerAnimator.h; sourceTree = "<group>"; };
+		7119D7581F1723AE00321042 /* FKTimerAlertControllerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKTimerAlertControllerAnimator.m; sourceTree = "<group>"; };
+		7119D75A1F1723BF00321042 /* FKTimerAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKTimerAlertController.h; sourceTree = "<group>"; };
+		7119D75B1F1723BF00321042 /* FKTimerAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKTimerAlertController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 		7119D7561F17212000321042 /* FKTimerAlertController */ = {
 			isa = PBXGroup;
 			children = (
+				7119D7571F1723AE00321042 /* FKTimerAlertControllerAnimator.h */,
+				7119D7581F1723AE00321042 /* FKTimerAlertControllerAnimator.m */,
+				7119D75A1F1723BF00321042 /* FKTimerAlertController.h */,
+				7119D75B1F1723BF00321042 /* FKTimerAlertController.m */,
 			);
 			path = FKTimerAlertController;
 			sourceTree = "<group>";
@@ -159,7 +169,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7119D7591F1723AE00321042 /* FKTimerAlertControllerAnimator.m in Sources */,
 				7119D7471F17202900321042 /* ViewController.m in Sources */,
+				7119D75C1F1723BF00321042 /* FKTimerAlertController.m in Sources */,
 				7119D7441F17202900321042 /* AppDelegate.m in Sources */,
 				7119D7411F17202900321042 /* main.m in Sources */,
 			);
